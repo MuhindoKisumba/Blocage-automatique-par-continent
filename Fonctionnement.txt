@@ -1,0 +1,13 @@
+Connexion utilisateur
+        │
+             ▼
+GeoIP → continent
+        │
+             ▼
+Continent autorisé ?
+      /     \
+    oui      non
+    │         │
+      ▼               ▼
+Autorisé    Blocage total
+           (multi-firewall)
